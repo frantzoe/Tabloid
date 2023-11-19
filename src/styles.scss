@@ -8,4 +8,9 @@ body {
 body {
 	margin: 0;
 	font-family: Roboto, "Helvetica Neue", sans-serif;
+	user-select: none;
+}
+
+.routed {
+	min-height: calc(100vh - 64px);
 }
